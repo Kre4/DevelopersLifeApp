@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Developers life</string>
+    <string name="latest_tab">Latest</string>
+    <string name="best_tab">Best</string>
+    <string name="hot_tab">Hot</string>
+    <string name="empty_url" />
+    <string name="connection_error_message">Connection Error</string>
+    <string name="unexpected_error_message">Unexpected error. Try to load next gif</string>
+</resources>

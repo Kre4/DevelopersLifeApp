@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/tabs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="0dp"
+        android:layout_height="@dimen/tab_button_height"
+        android:layout_weight="1"
+        android:background="@drawable/bordered_button"
+        android:text="@string/latest_tab"
+        android:textColor="?android:textColor" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="0dp"
+        android:layout_height="@dimen/tab_button_height"
+        android:layout_weight="1"
+        android:background="@drawable/bordered_button"
+        android:text="@string/best_tab"
+        android:textColor="?android:textColor"
+        app:cornerRadius="0dp"
+
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="0dp"
+        android:layout_height="@dimen/tab_button_height"
+        android:layout_weight="1"
+        android:background="@drawable/bordered_button"
+        android:text="@string/hot_tab"
+        android:textColor="?android:textColor"
+        app:cornerRadius="0dp" />
+
+</LinearLayout>
